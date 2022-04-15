@@ -1,0 +1,41 @@
+.doctorList {
+    display: flex;
+    flex-wrap: wrap;
+  margin: 50px;
+}
+
+.single-doctor {
+    margin: 50px;
+    width: 50%
+}
+
+h3 {
+    margin: 90px
+}
+
+.doctor-name {
+    text-align: center;
+}
+
+.img {
+    margin: 50px;
+}
+
+
+.cardText {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.appointment-card {
+    border: none;
+    box-shadow: 0 0 10px #f3f0f0b0;
+}
+
+.appointment-card p {
+    font-size: 14px;
+    font-weight: 200;
+}
